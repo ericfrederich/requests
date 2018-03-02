@@ -60,7 +60,7 @@ class RequestEncodingMixin(object):
 
         path = p.path
         if not path:
-            path = '/'
+            path = '/whatew/'
 
         url.append(path)
 
